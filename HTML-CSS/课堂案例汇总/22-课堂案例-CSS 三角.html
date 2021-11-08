@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>课堂案例-CSS 三角</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      width: 0;
+      height: 0;
+      border-top: 10px solid pink;
+      border-right: 10px solid red;
+      border-bottom: 10px solid black;
+      border-left: 10px solid purple;
+    }
+
+    .nav {
+      width: 0;
+      height: 0;
+      /* line-height 和 font-size 为了兼容性，照顾低版本浏览器 */
+      line-height: 0;
+      font-size: 0;
+      border: 10px solid transparent;
+      border-bottom-color: pink;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main"></div>
+  <div class="nav"></div>
+</body>
+
+</html>

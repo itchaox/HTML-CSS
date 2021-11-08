@@ -1,0 +1,29 @@
+body {
+    font: 16px/28px 'Microsoft YaHei';
+}
+
+.gray {
+    color: #999;
+}
+
+.title1,
+.title2 {
+    text-align: center;
+}
+
+.bottom {
+    text-align: right;
+}
+
+P,
+h4 {
+    text-indent: 2em;
+}
+
+.imgCenter {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 后代选择器 */
+    .nav ul li a {
+      color: red;
+    }
+
+    /* 子选择器 */
+    .hot>a {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h4>将下面链接颜色改为红色</h4>
+  <div class="nav">
+    <ul>
+      <li><a href="#">百度</a></li>
+      <li><a href="#">百度</a></li>
+    </ul>
+  </div>
+  <h4>将下面的胡歌改为红色</h4>
+  <div class="hot">
+    <a href="#">胡歌</a>
+    <ul>
+      <li><a href='#'>伪装者</a></li>
+      <li><a href="#">琅琊榜</a></li>
+    </ul>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+/* 去除所有标签内外边距 */
+* {
+  margin: 0;
+  padding: 0
+}
+
+/* em 和 i 斜体文字改成不倾斜 */
+em,
+i {
+  font-style: normal
+}
+
+/* 去掉 li 小圆点 */
+li {
+  list-style: none
+}
+
+img {
+  /* border 0 照顾低版本浏览器：如果图片外包含连接会有边框的问题 */
+  border: 0;
+  /* 取消图片底侧有空隙问题 */
+  vertical-align: middle
+}
+
+/* 当鼠标经过按钮时，样式改为小手 */
+button {
+  cursor: pointer
+}
+
+/* 更改 a 超链接颜色，取消下划线 */
+a {
+  color: #666;
+  text-decoration: none
+}
+
+/* 鼠标移动到 a 超链接上，改变文字颜色 */
+a:hover {
+  color: #c81623
+}
+
+/* 按钮，输入框设置字体 */
+button,
+input {
+  font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+}
+
+/* 全局设置背景色和字体颜色、样式等， */
+body {
+  /* CSS3 抗锯齿性，让文字显示更加清晰 */
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  /* "\5B8B\4F53" 代码宋体，这样可以使浏览器兼容性更好 */
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+  color: #666
+}
+
+/* 隐藏元素 */
+.hide,
+.none {
+  display: none
+}
+
+/* 利用伪元素，清除浮动 */
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0
+}
+
+/* 在IE6下清除浮动、解决margin导致重叠等问题 */
+.clearfix {
+  *zoom: 1
+}
