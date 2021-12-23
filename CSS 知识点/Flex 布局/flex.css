@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  background-color: pink;
+  width: 300px;
+  flex-flow: row-reverse wrap-reverse;
+}
+
+.flex div {
+  background-color: blue;
+  width: 100px;
+}
+
+/*# sourceMappingURL=a.css.map */
